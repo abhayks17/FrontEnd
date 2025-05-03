@@ -1,0 +1,38 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: rgb(193, 221, 245); */
+    background-color: rgb(196, 197, 188);
+
+
+}
+
+.container {
+    height: 200px;
+    width: 400px;
+    border: 2px solid rgba(186, 212, 255, 0.3);
+    /* background-color: rgb(214, 229, 253); */
+    background-color: rgb(215, 216, 211);
+
+}
+
+.name {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.password {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.container input {
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid rgb(139, 138, 138);
+    background-color: rgb(215, 216, 211);
+}
