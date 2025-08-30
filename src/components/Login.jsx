@@ -15,7 +15,7 @@ function Login() {
     console.log('Password:', password);
 
     try {
-      const response = await axios.post("http://localhost:4000/login", {
+      const response = await axios.post("https://backend-0an7.onrender.com/login", {
         name,
         password
       });
