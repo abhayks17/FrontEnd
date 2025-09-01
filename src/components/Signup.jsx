@@ -14,7 +14,7 @@ function Signup() {
     console.log('Password:', password);
 
     try {
-      const response = await axios.post("backend-production-389f.up.railway.app/", {
+      const response = await axios.post("https://backend-production-389f.up.railway.app/", {
         name: name,
         password: password
       });
